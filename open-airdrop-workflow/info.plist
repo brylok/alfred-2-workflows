@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>openairdrop.brylok</string>
+	<key>connections</key>
+	<dict>
+		<key>A751C6BA-E3EE-40B4-A01F-2686B5471142</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>16F0D9C0-D8B0-492A-80EB-4CFDFE6DAA6B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Bryan Lokey</string>
+	<key>description</key>
+	<string>Easily open airdrop from Alfred</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Open Airdrop</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>airdrop</string>
+				<key>text</key>
+				<string>Open Airdrop</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>A751C6BA-E3EE-40B4-A01F-2686B5471142</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)
+	tell application "Finder"		activate		tell application "System Events"			keystroke "r" using {command down, shift down}		end tell	end tell
+end alfred_script</string>
+				<key>cachescript</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>16F0D9C0-D8B0-492A-80EB-4CFDFE6DAA6B</string>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>Easily open airdrop from Alfred</string>
+	<key>uidata</key>
+	<dict>
+		<key>16F0D9C0-D8B0-492A-80EB-4CFDFE6DAA6B</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+		<key>A751C6BA-E3EE-40B4-A01F-2686B5471142</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string>www.bryanlokey.com</string>
+</dict>
+</plist>
