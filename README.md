@@ -5,6 +5,18 @@ A collection of my workflows for Alfred 2
 
 
 
+Google Hangout Helper
+---------------------
+Start a Google Hangout or On Air Hangout
+
+#####Start Google Hangout
+        hangout
+
+#####Start On Air Google Hangout
+        hangout onair
+
+
+
 
 Edit Hosts File Workflow
 ---------------------
@@ -23,7 +35,8 @@ Open Airdrop Workflow
 ---------------------
 A simple shortcut to open Airdrop
 
-    airdrop
+#####Open Airdrop
+        airdrop
   
 
 
