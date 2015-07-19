@@ -1,0 +1,1 @@
+~/kibana/bin/kibana --config ~/kibana/config/kibana-staging.yml & bg

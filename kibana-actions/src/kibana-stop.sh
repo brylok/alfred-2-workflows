@@ -1,0 +1,1 @@
+kill $(ps -e | grep '[k]ibana' | awk '{print $1}')

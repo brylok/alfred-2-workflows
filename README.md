@@ -3,19 +3,12 @@ Alfred 2 Workflows
 
 A collection of my workflows for Alfred 2
 
-
-
 Google Hangout Helper
 ---------------------
 Start a Google Hangout or On Air Hangout
 
 #####Start Google Hangout
-    hangout
-
-#####Start On Air Google Hangout
-    hangout onair
-
-
+    `hangout`
 
 
 Edit Hosts File Workflow
@@ -23,41 +16,44 @@ Edit Hosts File Workflow
 Edit your hosts file using vi or nano
 
 #####Edit in vi
-    hosts vi
+    `hosts vi`
 
 #####Edit in nano
-    hosts nano
+    `hosts nano`
 
 
 
-
-Open Airdrop Workflow
+Finder Shortcuts Workflow
 ---------------------
 A simple shortcut to open Airdrop
 
 #####Open Airdrop
-    airdrop
-  
+    `airdrop`
+
+#####Show Downloads Folder
+    `downloads`
+
+#####Show Desktop
+    `desktop`
+
+#####Open All Files
+    `allfiles`
 
 
 
-Screensize Workflow
+Kibana Actions Workflow
 ---------------------
-Show screensize of your monitor or browser windows
+A Helper to manage multiple Kibana installations. Example configs included in src folder.
 
-#####Show Screensize
-    sscreen
+You will need to modify the elasticsearch_url in the example configs to match your own server.
 
-#####Show Chrome window size
-    sscreen chrome
-    sscreen ch
+#####Open Kibana on port 5601 and Connect to Staging
+    `kibana staging`
 
-#####Show Firefox window size
-    sscreen firefox
-    sscreen ff
+#####Open Kibana on port 5602 and Connect to Production
+    `kibana production`
 
-#####Show Safari window size
-    sscreen safari
-    sscreen sf
+#####Kill All Kibana Processes
+    `kibana stop`
     
 
